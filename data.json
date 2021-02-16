@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Julien",
+      "name": "Granero",
+      "email": "julien.granero@wundermanthompson.com",
+      "tel": 5146236146,
+      "addressNum": 1688,
+      "addressStr": "rue Dufresne",
+      "postalCode": "H2K3J8",
+      "city": "montreal"
+    },
+    {
+      "id": 2,
+      "firstname": "Fabricio",
+      "name": "Bravo",
+      "email": "julien.granero@wundermanthompson.com",
+      "tel": 5146236146,
+      "addressNum": 1688,
+      "addressStr": "rue Dufresne",
+      "postalCode": "H2K3J8",
+      "city": "montreal"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "price": 20,
+      "ownerId": 2,
+      "name": "planche de snow",
+      "categoryId": 1,
+      "typeOfRental": 1
+    }
+  ],
+  "locations": [
+    {
+      "productId": 1,
+      "renterId": 1,
+      "dateStart": "01-12-2020",
+      "dateEnd": "01-12-2020",
+      "price": 12
+    }
+  ],
+  "typeOfRentals": [
+    {
+      "id": 1,
+      "type": "Free",
+      "price": "20"
+    },
+    {
+      "id": 2,
+      "type": "With a price in total"
+    }
+  ]
+}
